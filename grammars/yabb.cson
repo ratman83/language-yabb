@@ -1,0 +1,40 @@
+'scopeName': 'source.yabb'
+fileTypes: [
+  ".rdb",
+  ".ldb",
+  ".inc"
+]
+name: "YABB"
+'patterns': [
+  {
+    'match': '#([a-z]+)'
+    'name': 'keyword.directive.yabb'
+  }
+  {
+    'match': '\\._([A-Z]+\\w*)'
+    'name': 'entity.name.tag.yabb'
+  }
+  {
+    'match': '\\b(_\\w+)\\b'
+    'name': 'entity.name.type.yabb'
+  }
+  {
+    'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+    'name': 'constant.numeric.yabb'
+  }
+  {
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.documentation.yabb'
+  }
+  {
+    'begin': '//'
+    'end': '\\n'
+    'name': 'comment.line.double-slash.yabb'
+  }
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.yabb'
+  }
+]

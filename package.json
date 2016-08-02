@@ -1,0 +1,14 @@
+{
+  "name": "language-yabb",
+  "version": "0.1.0",
+  "description": "YABB language support for Atom",
+  "keywords": [
+    "YABB"
+  ],
+  "repository": "https://github.com/ratman83/language-yabb",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
