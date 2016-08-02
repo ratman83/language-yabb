@@ -1,8 +1,8 @@
 'scopeName': 'source.yabb'
 fileTypes: [
-  ".rdb",
-  ".ldb",
-  ".inc"
+  "rdb",
+  "ldb",
+  "inc"
 ]
 name: "YABB"
 'patterns': [
