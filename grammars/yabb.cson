@@ -23,6 +23,10 @@ name: "YABB"
     'name': 'constant.numeric.yabb'
   }
   {
+    'match': '0x([0-9]+)'
+    'name': 'constant.numeric.yabb'
+  }
+  {
     'begin': '/\\*'
     'end': '\\*/'
     'name': 'comment.block.documentation.yabb'
@@ -36,5 +40,14 @@ name: "YABB"
     'begin': '\''
     'end': '\''
     'name': 'string.quoted.single.yabb'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.yabb'
+  }
+  {
+    'match': '%'
+    'name': 'invalid.illegal.yabb'
   }
 ]
